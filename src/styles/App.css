@@ -1,16 +1,81 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #4af;
+  color: white;
 }
 
-.bg-pink{
-	background-color:pink;
+h1 {
+  color: #27aedb;
+  text-align: center;
+}
+
+#main {
+  padding: 20px;
+  margin: auto;
+  width: 200px;
+}
+
+button {
+  color: #27aedb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+textarea {
+  background-color: lightblue;
+  height: 25px;
+  width: 200px;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#task {
+  resize: none;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+.editTask {
+  resize: none;
+}
+
+.saveTask {
+  margin-left: 60px;
+  width: 80px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.saveTask:disabled {
+  opacity: 0.7;
+}
+
+.list {
+  display: flex;
+  background-color: orange;
+  justify-content: space-between;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 2px;
 }
