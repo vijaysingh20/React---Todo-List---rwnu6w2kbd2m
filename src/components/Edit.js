@@ -12,7 +12,7 @@ const Edit = (props) => {
       <button
         className="saveTask"
         onClick={() => props.saveTask(props.editID)}
-        // disabled={props.edited.length === 0}
+        disabled={props.edited.length === 0}
       >
         Save
       </button>
